@@ -1,0 +1,32 @@
+.aside-contact-details{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    width: 30%;
+    background: rgb(235, 236, 237);
+}
+.image-detail-wapper{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 270px;
+    height: 270px;
+    border-radius: 150px;
+}
+.img-detail{
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.aside-contant-details-700px{
+    display: none;
+}

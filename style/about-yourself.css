@@ -1,0 +1,32 @@
+.aside-about-yourself{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 0 15px;
+}
+.head-title{
+    color: rgb(36, 106, 140);
+    text-transform: uppercase;
+}
+.name{
+    font-size: 28px;
+    margin: 3px 0 0;
+    color: rgb(36, 106, 140);
+}
+.profession{
+    font-size: 18px;
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(36, 106, 140);
+}
+.ongoing-work{
+    margin: 0 0 16px;
+}
+.small-parts_820px{
+    display: none;
+}
+.image_adaptive{
+    display: none;
+}

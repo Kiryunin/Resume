@@ -1,0 +1,97 @@
+@media(max-height: 820px){
+    .small-parts_820px{
+        display: inline;
+    }
+    .aside-contact-details{
+        width: 20%;
+    }
+    .aside-about-yourself{
+        width: 80%;
+    }
+    .small-parts{
+        display: none;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    .small-parts__group{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+    }
+}
+@media(max-height: 700px), (max-width:1050px){
+    .aside-contact-details{
+        display: none;
+    }
+    .aside-about-yourself{
+        width: 100%;
+    }
+    .my-person{
+        margin-bottom: 20px;
+        display: flex;
+        gap: 50px;
+    }
+    .image_adaptive{
+        display: inline;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    .my-person__image-and-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 40%; */
+    }
+    .name{
+        font-size: 18px;
+        text-align: center;
+    }
+    .profession{
+        font-size: 14px;
+        text-align: center;
+    }
+    .my-person-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .head-title{
+        margin-top: 16px;
+    }
+    h4{
+        margin-top: 16px;
+    }
+    .aside-contant-details-700px{
+        display: flex;
+        justify-content: space-around;
+    }
+    .asides-wrapper{
+        padding: 10px 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+@media(max-width: 1050px){
+    .image{
+        width: 190px;
+        height: 190px;
+    }
+}
+@media(max-height: 685px), (max-width:990px){
+    .image{
+        width: 150px;
+        height: 150px;
+    }
+
+}
