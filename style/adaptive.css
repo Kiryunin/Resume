@@ -18,6 +18,7 @@
     .small-parts__group{
         display: flex;
         justify-content: space-evenly;
+        gap: 10px;
     }
     .part{
         display: flex;
@@ -88,10 +89,77 @@
         height: 190px;
     }
 }
+@media(max-width: 950px){
+    .img-detail{
+        display: none;
+    }
+}
 @media(max-height: 685px), (max-width:990px){
     .image{
         width: 150px;
         height: 150px;
     }
+    .education-desc{
+        display: none;
+    }
+}
+@media(max-height: 620px), (max-width:900px){
+    p, a{
+        font-size: 12px;
+    }
+}
+@media(max-height: 580px), (max-width:840px){
+    .name{
+        font-size: 16px;
+    }
+    .profession{
+        font-size: 12px;
+    }
+    .head-title, h4{
+        font-size: 12px;
+    }
+}
+@media(max-height: 560px), (max-width:820px){
+    .image{
+        width: 120px;
+        height: 120px;
+    }
+    .profession{
+        display: none;
+    }
+    .desc-one{
+        display: none;
+    }
+    .my-person{
+        margin-bottom: 8px;
+    }
+}
+@media(max-height: 500px), (max-width:750px){
+    .image{
+        width: 110px;
+        height: 110px;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .ongoing-work{
+        display: none;
+    }
+    .detail_adress{
+        display: none;
+    }
+    .my-history{
+        display: none;
+    }
+    .my-history_small-size{
+        display: inline;
+    }
+}
+@media(max-width:500px){
+    .head-title, h4, p, a{
+        font-size: 10px;
+    }
+}
+@media(max-height: 725px), (max-width:870px){
 
 }

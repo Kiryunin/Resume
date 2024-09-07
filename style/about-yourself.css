@@ -9,6 +9,15 @@
     color: rgb(36, 106, 140);
     text-transform: uppercase;
 }
+.education{
+    display: flex;
+    gap: 10px;
+}
+.training-time{
+    margin: 0;
+    display: flex;
+    align-items: end;
+}
 .name{
     font-size: 28px;
     margin: 3px 0 0;
@@ -28,5 +37,8 @@
     display: none;
 }
 .image_adaptive{
+    display: none;
+}
+.my-history_small-size{
     display: none;
 }
